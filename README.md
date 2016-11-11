@@ -8,7 +8,7 @@
 npm start
 
 # 学习地址
- 感谢楼主的分享[nswbmw/N-blog]（https://github.com/nswbmw/N-blog）
+ 感谢楼主的分享[nswbmw/N-blog](https://github.com/nswbmw/N-blog)
 
 
 
