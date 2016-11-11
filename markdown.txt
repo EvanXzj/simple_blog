@@ -1,0 +1,75 @@
+# markdown 基础使用语法
+
+A First Level Header
+====================
+
+A Second Level Header
+---------------------
+
+is this a paragraph?
+
+### header 3
+
+> this  is a  blockquote
+
+> This is the second paragraph in the blockquote.
+
+> ## This is an H2 in a blockquote
+
+some of these words *are emphasized*
+
+some of these words _are emphasized also_
+
+Use two asterisks for **strong emphasis**.
+
+Or, if you prefer, __use two underscores instead__.
+
+* candy
+* apple
+* meet
+
++ Candy.
++ Gum.
++ Booze.
+
+- Candy.
+- Gum.
+- Booze.
+
+# 有序列表
+1. meet
+2. apple
+3. candy
+
+# 如果你在项目之间插入空行，那项目的内容会用 <p> 包起来，你也可以在一个项目内放上多个段落，只要在它前面缩排 4 个空白或 1 个 tab
+
+* A list item.
+
+    With multiple paragraphs.
+
+* Another item in the list.
+
+# 行内连接
+This i a [baidu link](http://www.baidu.com/"title")
+
+# 参考连接
+I get 10 times more traffic from [Google][1] than from
+[Yahoo][2] or [msn][3].
+
+[1]: http://google.com/ "Google"
+[2]: http://search.yahoo.com/ "Yahoo Search"
+[3]: http://search.msn.com/ "MSN Search"
+
+# 图片
+# 行内形式连接（title 是选择性的）：
+
+![alt text](/path/to/img.jpg "Title")
+
+# 参考连接
+![alt text][id]
+
+[id]: /path/to/img.jpg "Title"
+
+
+# 在一般的段落文字中，你可以使用反引号 ` 来标记代码区段，区段内的 &、< 和 > 都会被自动的转换成 HTML 实体，这项特性让你可以很容易的在代码区段内插入 HTML 码：
+
